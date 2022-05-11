@@ -1,8 +1,7 @@
 import React from "react";
 import { MdFingerprint } from "react-icons/md";
-import { BiTransfer, BiDollar } from "react-icons/bi";
 import { GiMoneyStack } from "react-icons/gi";
-import Settlements from "../components/Settlements";
+import Transfer from "../components/Transfer";
 
 const Wallet = () => {
   return (
@@ -35,7 +34,7 @@ const Wallet = () => {
               <h1 className="p-4 text-lg font-semibold text-gray-500 ">
                 Transfer History
               </h1>
-              <Settlements />
+              <Transfer />
             </div>
           </div>
         </div>

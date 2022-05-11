@@ -7,7 +7,7 @@ import { MdSettings, MdPermMedia } from "react-icons/md";
 import { FaWallet } from "react-icons/fa";
 import { BiLogOut } from "react-icons/bi";
 import { Link } from "react-router-dom";
-import { RevChart } from "../components/RevChart";
+import OverView from "./OverView";
 
 const Home = ({ childComp }: { childComp: JSX.Element }) => {
   const location = useLocation();
@@ -237,12 +237,7 @@ const Home = ({ childComp }: { childComp: JSX.Element }) => {
         {/* Body */}
         {childComp}
       </div>
-      <div className="md:w-[30%] xl:w-[20%] relative md:border-l border-dashed md:p-8 px-4 py-8">
-        <div className="absolute inset-0 bg-grid h-full -z-10 bg-no-repeat bg-cover opacity-20"></div>
-        <div className="absolute inset-0 bg-blur h-full -z-10 bg-no-repeat bg-cover opacity-40"></div>
-        <h1>Hello World</h1>
-        <RevChart />
-      </div>
+      <OverView />
     </div>
   );
 };
