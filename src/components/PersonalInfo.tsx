@@ -3,7 +3,6 @@ import React from "react";
 const PersonalInfo = () => {
   return (
     <>
-      {" "}
       <form action="#" method="POST">
         <div className="overflow-hidden sm:rounded-md">
           <div className="px-0 py-5 bg-white sm:p-6">
@@ -61,12 +60,12 @@ const PersonalInfo = () => {
             </div>
           </div>
           <div className="px-4 py-6 space-x-4 text-right sm:px-6">
-            <button className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm hover:shadow-md text-sm font-medium rounded-md text-sunshine bg-white/90 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-transparent">
+            <button className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm hover:shadow-md text-sm font-medium rounded-2xl text-sunshine bg-white/90 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-transparent">
               Cancel
             </button>
             <button
               type="submit"
-              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sunshine/90 hover:bg-sunshine focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-2xl text-white bg-sunshine/90 hover:bg-sunshine focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Save
             </button>
@@ -115,12 +114,12 @@ const PersonalInfo = () => {
               </div>
             </div>
             <div className="px-4 py-6 space-x-4 text-right sm:px-6">
-              <button className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm hover:shadow-md text-sm font-medium rounded-md text-sunshine bg-white/90 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-transparent">
+              <button className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm hover:shadow-md text-sm font-medium rounded-2xl text-sunshine bg-white/90 hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-0 focus:ring-transparent">
                 Cancel
               </button>
               <button
                 type="submit"
-                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-sunshine/90 hover:bg-sunshine focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-2xl text-white bg-sunshine/90 hover:bg-sunshine focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
                 Save
               </button>
