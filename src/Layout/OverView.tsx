@@ -7,7 +7,7 @@ const OverView = () => {
     <div className="md:w-[30%] xl:w-[20%] relative md:border-l border-dashed md:p-8 px-4 py-8">
       <div className="absolute inset-0 bg-grid h-full -z-10 bg-no-repeat bg-cover opacity-20"></div>
       <div className="absolute inset-0 bg-blur h-full -z-10 bg-no-repeat bg-cover opacity-40"></div>
-      <h1 className="text-xl font-semibold text-gray-500">OverView</h1>
+      <h1 className="text-xl font-semibold text-gray-500">Overview</h1>
       <div className="my-8 space-y-8">
         {/* Total Cars */}
         <div className="flex items-center">
