@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-sunshine;
+  }
+}
 @layer components {
   .nav-item {
     @apply list-none py-3 cursor-pointer border-0 hover:border-r-4 border-sunshine rounded-sm;
@@ -17,5 +22,11 @@
   }
   .stroke {
     @apply text-sunshine !border-sunshine !bg-sunshine;
+  }
+  .input {
+    @apply w-full bg-white px-3 py-2 3xl:px-4 3xl:py-3 placeholder-gray-500/50 outline-none focus:bg-white !rounded-2xl border border-sunshine/70 text-gray-500;
+  }
+  .label {
+    @apply block text-gray-500;
   }
 }
